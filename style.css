@@ -1,32 +1,55 @@
 img {
     position: relative;
-    width: 100%;
-    height: 300px; /* Set a specific height */
+    max-width: 70%;
     opacity: 25%;
+    border-radius: 10px
 }
+img:hover{
+    opacity: 100%;
+    box-shadow:orange 0px 0px 25px 10px;
+    transform: scale(1.05);
+}
+
 
 a:has(img){
     display: flex;
-    border: 2px solid white;
     position: relative;
 }
 
-a:has(img)::after {
+/* a:has(img)::after { 
     display: block;
     content: "";
     position: absolute;
     inset: 0;
     background-color: orange;
     z-index: -1;
-}
+} */
 
 a.back-link {
-    color: rgb(243, 238, 238);
-}
 
+    color: rgb(0, 0, 0);
+    border: 1px solid white; /* Add this line for the border */
+    display: inline-block;
+    padding: 2px; /* Add padding for better appearance */
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    border-radius:10px ;
+    background-color: white;
+    text-decoration: none; /* Optional: remove underline */
+    
+    
+}
+a.back-link:hover {
+    background-color: orange;
+    color: white;
+    border-color:white;
+}
+   
 
 .title {
     color: white;
+
 }
 
 body {
@@ -34,7 +57,31 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.full-width {
-    width: 75%;
-    height: 100%;
+
+h1 {font-size: 20px;
+
+
+}
+
+
+ul.recipe-teaser > li + li{
+    border: 1px solid red;
+    margin-top: 40px;
+}
+img.realtaco:hover{margin-bottom:60px ;
+                   display:show
+    
+    
+
+}
+img.realtaco{
+    margin-bottom:0px ;
+    
+    
+
+}
+
+h4{
+    color: white;
+    display:none;
 }

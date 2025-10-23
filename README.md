@@ -8,7 +8,11 @@ Things I learned this week:
 - 2025-10-21 (Tuesday): decided on project — recipe app with my favorite recipes
 - 2025-10-21 (Tuesday): created basic structure with HTML files for the recipe app
 - 2025-10-21 (Tuesday): set up GitHub account, initialized this repository, and pushed changes
+- 2025-10-22 (Wednesday): learned about CSS, started designing the website, and fixed bugs
+- 2025-10-23(Thursday)Mainly working on codeacademy css, learned about css selectors
+played a game to learn them 
 
 ## Activity log
 - 2025-10-21: Edited `index.html` — added linked recipe images, fixed anchor/img markup, removed UL bullets, made images uniform with a fixed height and `object-fit: cover`. Noted one link missing `.html` (`recipes/nasilemak`).
 - Git/GitHub: encountered "Invalid username or token" when pushing; GitHub CLI not installed (`zsh: command not found: gh`).
+- 2025-10-22 (Wednesday): Learned about CSS, started designing the website, and fixed bugs (layout, links, and CSS issues).

@@ -11,6 +11,9 @@ Things I learned this week:
 - 2025-10-22 (Wednesday): learned about CSS, started designing the website, and fixed bugs
 - 2025-10-23(Thursday)Mainly working on codeacademy css, learned about css selectors
 played a game to learn them 
+- 2025-10-23(Friday)Started a new Project , programmed the  basic html code 
+  and designed in css 
+
 
 ## Activity log
 - 2025-10-21: Edited `index.html` — added linked recipe images, fixed anchor/img markup, removed UL bullets, made images uniform with a fixed height and `object-fit: cover`. Noted one link missing `.html` (`recipes/nasilemak`).

@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0px;
     font-family: "Climate Crisis";
+
     background-color: #F6F6F6;
     padding-left: 0%;
 }
@@ -54,6 +55,12 @@ header .logo {
     border-radius: 15px;
     overflow: hidden;
     background-color: #FFFFFF;
+    padding-bottom: 24px;
+
+}
+
+.card :hover {
+    transform: scale(1.02);
 }
 
 .card .frame img {
@@ -92,4 +99,40 @@ header .logo {
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
     color: var(--light-grey);
+
+
+}
+
+.card button :hover {
+    transform: scale(1.2);
+
+
+
+}
+
+/* style img*/
+.recipe-img {
+    border-radius: 15px;
+
+
+
+
+}
+
+/* links*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* recipe cards*/
+.recipe-cards .frame img {
+    border-radius: 15px;
+}
+
+.recipe-cards .card__details__data {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+
 }

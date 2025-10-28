@@ -14,7 +14,8 @@ played a game to learn them
 - 2025-10-23(Friday)Started a new Project , programmed the  basic html code and designed in css 
 -2025-10-23(Monday)
 continued the new project mainly in html /structuring html
-   
+-2025-10-23(Tuesday)
+   learned about flex boxes used them on my website
 
 
 ## Activity log

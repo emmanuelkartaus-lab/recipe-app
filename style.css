@@ -2,15 +2,17 @@ body {
     margin: 0;
     padding: 0px;
     font-family: "Climate Crisis";
-
     background-color: #F6F6F6;
-    padding-left: 0%;
 }
 
 main {
-    max-width: 1440px;
+    max-width: 1410px;
     padding: 48px;
     margin: 0 auto;
+}
+
+main:has(.recipe) {
+    max-width: 1170px;
 }
 
 h1 {
@@ -110,6 +112,9 @@ header .logo {
 
 }
 
+
+
+
 /* style img*/
 .recipe-img {
     border-radius: 15px;
@@ -125,14 +130,96 @@ a {
     color: black;
 }
 
-/* recipe cards*/
-.recipe-cards .frame img {
-    border-radius: 15px;
+
+/* recipe details page */
+article.recipe {
+    border: 1px solid red;
+
+
+
+
 }
 
-.recipe-cards .card__details__data {
-    margin-top: 48px;
+
+article.recipe .frame {
+    border: 1px solid blue;
+    aspect-ratio: 4 / 3;
+}
+
+article.recipe .frame img {
+    display: block;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+article.recipe button {
+    border: none;
+    background-color: #F6F6F6;
+
+}
+
+
+
+.recipe .time {
+    color: var(--grey-dark, #696969);
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+    display: flex;
+
+
+
+}
+
+.recipe .time img {
+    width: 24px;
+    height: 24px;
+    aspect-ratio: 1/1;
+    padding-top: 3.5px
+}
+
+article.recipe .recipe__title__details {
     display: flex;
     justify-content: space-between;
+    border: 1px solid black;
+
+
+
+
+}
+
+article.recipe button img {
+    width: 24px;
+    length: 24px;
+    padding: 3.5px;
+
+}
+
+article.recipe {
+    font-family: open sans;
+}
+
+article.recipe h2 {
+    font-family: climate crisis;
+    padding-left: 0px;
+}
+
+article.recipe .recipe__preparation {
+    border: 1px solid green;
+}
+
+article.recipe .recipe__preparation {
+    text-align: start;
+
+
+
+}
+
+article.recipe .recipe__preparation tr {
+    padding-bottom: 20x;
 
 }

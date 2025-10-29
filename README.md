@@ -11,11 +11,12 @@ Things I learned this week:
 - 2025-10-22 (Wednesday): learned about CSS, started designing the website, and fixed bugs
 - 2025-10-23(Thursday)Mainly working on codeacademy css, learned about css selectors
 played a game to learn them 
-- 2025-10-23(Friday)Started a new Project , programmed the  basic html code and designed in css 
--2025-10-23(Monday)
+- 2025-10-26(Friday)Started a new Project , programmed the  basic html code and designed in css 
+- 2025-10-27(Monday)
 continued the new project mainly in html /structuring html
--2025-10-23(Tuesday)
+- 2025-10-28(Tuesday)
    learned about flex boxes used them on my website
+- 2025-10-29(Wednsday)Helped compiling excel sheeet and worked on a button
 
 
 ## Activity log

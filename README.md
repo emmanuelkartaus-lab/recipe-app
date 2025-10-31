@@ -17,7 +17,8 @@ continued the new project mainly in html /structuring html
 - 2025-10-28(Tuesday)
    learned about flex boxes used them on my website
 - 2025-10-29(Wednsday)Helped compiling excel sheeet and worked on a button
-
+- 2025-10-30(Thursday)helped building up an event:
+- 2025-10-30(Friday)learning java script
 
 ## Activity log
 - 2025-10-21: Edited `index.html` — added linked recipe images, fixed anchor/img markup, removed UL bullets, made images uniform with a fixed height and `object-fit: cover`. Noted one link missing `.html` (`recipes/nasilemak`).

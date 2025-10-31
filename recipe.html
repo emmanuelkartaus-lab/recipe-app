@@ -6,6 +6,8 @@
     <title>Recipe app</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <script src="./script.js" type="module"></script>
+
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,7 +51,7 @@
                             <img src="clock.svg" />
                             <span>10 min</span>
                         </div>
-                        <button>
+                        <button id="bookmark">
                             <img src="bookmark.svg" />
                         </button>
 
@@ -58,6 +60,13 @@
             </div>
             <div class="recipe__ingredients">
                 <h2>Zutaten</h2>
+                <div class="plus_minus">
+                    <button><img src="Subtract Streamline Ultimate Regular.svg" /></button>
+                    <input value="4" type="number" id="no-of-persons"></input>
+                    <button><img src="Add Streamline Ultimate Regular.svg" /></button>
+                    <p>Portionen</p>
+
+                </div>
                 <table>
                     <tr>
                         <td>8</td>
@@ -86,20 +95,19 @@
                         <td>Butter</td>
                     </tr>
                 </table>
+
             </div>
             <div class="recipe__preparation">
                 <h2>Zubereitung</h2>
-                <div>
-                    <button class="plus_minus">+</button>
-                    <input>
-                    <button class="plus_minus">-</button>
-                </div>
+
                 <ol>
                     <li>Alle Zutaten bereitstellen. Backofen auf 200°C Unter-/Oberhitze (Heissluft/Umluft 180°C)
                         vorheizen.</li>
-                    <li>Toasts auf dem mit Backpapier belegten Blech verteilen. Mit Butter oder Senf bestreichen.</li>
+                    <li>Toasts auf dem mit Backpapier belegten Blech verteilen. Mit Butter oder Senf bestreichen.
+                    </li>
                     <li>Toasts je mit einer Scheibe Schinken und einer Scheibe Ananas belegen. Mit Käse abdecken.
-                        Pfeffern. In der Mitte des vorgeheizten Ofens 8-10 Minuten backen, bis der Käse geschmolzen ist.
+                        Pfeffern. In der Mitte des vorgeheizten Ofens 8-10 Minuten backen, bis der Käse geschmolzen
+                        ist.
                         Jeden Toast mit einer Cocktailkirsche oder etwas Konfitüre garnieren. Würzen.</li>
                 </ol>
 

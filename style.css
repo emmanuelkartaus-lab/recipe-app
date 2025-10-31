@@ -20,7 +20,7 @@ h1 {
     font-size: 48px;
 }
 
-h2 {}
+
 
 :root {
     --light-grey: #696969;
@@ -61,7 +61,7 @@ header .logo {
 
 .card :hover {
     transform: scale(1.02);
-    color: #F7307C;
+
 }
 
 
@@ -150,11 +150,6 @@ article.recipe .frame img {
     object-fit: cover;
 }
 
-article.recipe button {
-    border: none;
-    background-color: #F6F6F6;
-
-}
 
 
 
@@ -185,9 +180,15 @@ article.recipe .recipe__title__details {
 
 article.recipe button img {
     width: 24px;
-    length: 24px;
+    height: 24px;
     padding: 3.5px;
 
+
+}
+
+#bookmark {
+    border: none;
+    background: #F6F6F6;
 }
 
 article.recipe {
@@ -251,6 +252,65 @@ article.recipe h2 {
 
 }
 
+
+
+input {
+    width: 90px;
+    height: 45px;
+    border: 1px solid #696969;
+
+
+}
+
 .plus_minus button {
-    background
+    background-color: #F7307C;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 500px;
+    color: #FFF;
+    border: none;
+    width: 60px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.plus_minus button:hover {
+    filter: brightness(80%);
+
+}
+
+.plus_minus button:active {
+    transform: scale(98%);
+}
+
+.plus_minus {
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.plus_minus img {
+    width: 20px;
+    height: 20px;
+    padding: none;
+
+
+}
+
+.plus_minus p {
+    color: var(--black, #000);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }

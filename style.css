@@ -245,7 +245,9 @@ article.recipe h2 {
 }
 
 /*style 2nd column */
-.recipe__ingredients td:nth-child(n+2) {}
+.recipe__ingredients td:nth-child(n+2) {
+    border: none
+}
 
 .recipe h2 {
     padding-top: 34px;
@@ -258,6 +260,9 @@ input {
     width: 90px;
     height: 45px;
     border: 1px solid #696969;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 
 
 }

@@ -19,8 +19,8 @@ continued the new project mainly in html /structuring html
 - 2025-10-29(Wednsday)Helped compiling excel sheeet and worked on a button
 - 2025-10-30(Thursday)helped building up an event:
 - 2025-10-31(Friday)learning java script
--2025-11-1(Monday)Cooked in the Morning, in the afternoon i learned about loops and blocks to use on my button
-
+- 2025-11-1(Monday)Cooked in the Morning, in the afternoon i learned about loops and blocks to use on my button
+- 2025-11-1(Tuesday)finished programming the button in javascript
 ## Activity log
 - 2025-10-21: Edited `index.html` — added linked recipe images, fixed anchor/img markup, removed UL bullets, made images uniform with a fixed height and `object-fit: cover`. Noted one link missing `.html` (`recipes/nasilemak`).
 - Git/GitHub: encountered "Invalid username or token" when pushing; GitHub CLI not installed (`zsh: command not found: gh`).

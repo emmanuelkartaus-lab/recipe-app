@@ -19,24 +19,17 @@ noOfPersonsInput.addEventListener("change", (e) => {
     for (let i = 0; i < ingredients.length; i++) {
         let current_ingredient = ingredients[i];
         const name = current_ingredient.dataset.name;
-        let baseQuantity;
         let baseUnit = current_ingredient.dataset.baseUnit;
-        if (baseUnit === "g") {
-            baseQuantity = numberOfPersons * 40
-        } else {
-            baseQuantity = numberOfPersons * 2
-            baseUnit = ""
-        }
+        const baseQuantity = current_ingredient.dataset.baseQuantity;
+        const quantity = numberOfPersons * parseInt(baseQuantity);
+
         const cell = current_ingredient.querySelector("td:first-child")
         if (baseUnit === "g") {
-            cell.innerHTML = baseQuantity + "g"
-            baseQuantity = numberOfPersons * 40
-
+            cell.innerHTML = quantity + "g"
 
         }
         else {
-            cell.innerHTML = baseQuantity
-            baseQuantity = numberOfPersons * 2
+            cell.innerHTML = quantity
         }
 
 

@@ -1,6 +1,6 @@
 {
-    "editor.bracketPairColorization.enabled": false,
-    "editor.guides.highlightActiveBracketPair": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.highlightActiveBracketPair": false,
 
   "editor.quickSuggestions": {
     "other": false,
@@ -10,4 +10,20 @@
   "editor.hover.enabled": false,
   "editor.parameterHints.enabled": false,
   "editor.formatOnSave": true
+}
+{
+  // Controls strikethrough deprecated variables.
+  "editor.showDeprecated": false
+}
+
+{
+  "editor.showDeprecated": false,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "*.deprecated": {
+        "strikethrough": false
+      }
+    }
+  }
 }

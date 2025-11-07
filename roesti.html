@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <script src="./script.js" type="module"></script>
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header class="backgroundcolor-header">
+        <a href="/">
+
+            <img src="logo-toast-hawaii.png" class="logo">
+        </a>
+    </header>
+
+    <main>
+        <article class="recipe">
+            <div class="recipe__backlink">
+                <a href="/" class="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.61149 0.0357886C9.74655 0.0893286 9.88741 0.215509 9.95439 0.342909C10.0013 0.432109 10.0083 0.468669 10.0083 0.625369C10.0083 0.774969 10.0004 0.820569 9.96167 0.895369C9.92869 0.958949 8.77805 2.12285 6.04183 4.86037L2.16867 8.73537H10.77C16.8972 8.73537 19.4052 8.74165 19.4893 8.75719C19.6446 8.78589 19.7323 8.83273 19.8451 8.94711C20.0777 9.18299 20.0777 9.56775 19.8451 9.80363C19.7323 9.91801 19.6446 9.96485 19.4893 9.99355C19.4052 10.0091 16.8972 10.0154 10.77 10.0154H2.16867L6.04183 13.8904C8.77805 16.6279 9.92869 17.7918 9.96167 17.8554C10.0004 17.9302 10.0083 17.9758 10.0083 18.1254C10.0083 18.2821 10.0013 18.3186 9.95439 18.4078C9.88509 18.5396 9.74453 18.6627 9.60157 18.7167C9.45847 18.7707 9.26833 18.7623 9.12577 18.6955C9.04717 18.6587 8.17695 17.7982 4.56699 14.1877C0.828608 10.4487 0.0996071 9.71079 0.0699271 9.63537C0.0504471 9.58587 0.0264474 9.52975 0.0165674 9.51065C-0.00659261 9.46581 -0.00693249 9.20957 0.0161875 9.22387C0.0258475 9.22983 0.0387667 9.21011 0.0448867 9.18005C0.0510067 9.14997 0.0832066 9.08487 0.116427 9.03537C0.149647 8.98587 2.16849 6.95533 4.60273 4.52307C8.19499 0.933748 9.04707 0.0921486 9.12653 0.0548886C9.26541 -0.0102113 9.47467 -0.0184514 9.61149 0.0357886ZM20.0119 9.37537C20.0119 9.45787 20.0084 9.49163 20.0041 9.45037C19.9997 9.40913 19.9997 9.34163 20.0041 9.30037C20.0084 9.25913 20.0119 9.29287 20.0119 9.37537Z"
+                            fill="white" />
+                    </svg>
+                    Zurück
+                </a>
+            </div>
+            <div>
+                <div class="frame">
+                    <img class="img-toscht" src="roesti_mit_spiegelei.jpg" />
+                </div>
+                <div class="recipe__title">
+                    <h2>Klassischer Toast Hawaii</h2>
+                    <div class="recipe__title__details">
+                        <div class="time">
+                            <img src="clock.svg" />
+                            <span>10 min</span>
+                        </div>
+                        <button class="bookmark">
+                            <img src="bookmark.svg" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe__ingredients">
+                <h2>Zutaten</h2>
+                <div class="plus_minus">
+                    <button id="minus"><img src="Subtract Streamline Ultimate Regular.svg" /></button>
+                    <input value="4" type="number" id="no-of-persons"></input>
+                    <button id="plus"><img src="Add Streamline Ultimate Regular.svg" /></button>
+                    <p>Portionen</p>
+
+                </div>
+                <table class="list_elements">
+                    <tr class="ingredient" data-name="Toast" data-base-unit="g" data-base-quantity="250">
+                        <td>1000g</td>
+                        <td>Kartoffeln</td>
+
+                    </tr>
+                    <tr class="ingredient" data-name="scheiben Schinken" data-base-unit="g" data-base-quantity="15">
+                        <td>60g</td>
+                        <td>Butter</td>
+                    </tr>
+                    <tr class="ingredient" data-name="scheiben Ananas" data-base-unit="g" data-base-quantity="1">
+                        <td>4g</td>
+                        <td>Salz</td>
+                    </tr>
+
+                </table>
+
+
+            </div>
+            <div class="recipe__preparation">
+                <h2>Zubereitung</h2>
+
+                <ol>
+                    <li>
+                        <p>1</p>Kartoffeln kochen, abkühlen lassen und schälen. Kartoffeln grob reiben. Mit Salz würzen.
+                    </li>
+                    <li>
+                        <p id="number2">2</p>Butter in einer Pfanne erhitzen. Kartoffelmasse hineingeben und gleichmäßig
+                        andrücken. Bei mittlerer Hitze 10-15 Minuten goldbraun braten.
+                    </li>
+                    <li>
+                        <p>3</p>Wenden und weitere 10-15 Minuten backen. Auf einem Teller anrichten.
+                    </li>
+                </ol>
+
+            </div>
+        </article>
+
+
+
+
+
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>

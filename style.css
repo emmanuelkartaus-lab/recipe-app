@@ -20,9 +20,7 @@ h1 {
     font-size: 48px;
 }
 
-h2 {
-    margin: 0
-}
+
 
 :root {
     --light-grey: #696969;
@@ -63,6 +61,11 @@ header .logo {
 
 .card :hover {
     transform: scale(1.02);
+
+}
+
+.card .frame {
+    aspect-ratio: 4 / 3;
 }
 
 .card .frame img {
@@ -82,6 +85,7 @@ header .logo {
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .card .time {
@@ -109,7 +113,6 @@ header .logo {
     transform: scale(1.2);
 
 
-
 }
 
 
@@ -132,17 +135,12 @@ a {
 
 
 /* recipe details page */
-article.recipe {
-    border: 1px solid red;
-
-
-
-
+article.recipe>div+div {
+    margin-top: 93px;
 }
 
 
 article.recipe .frame {
-    border: 1px solid blue;
     aspect-ratio: 4 / 3;
 }
 
@@ -154,11 +152,6 @@ article.recipe .frame img {
     object-fit: cover;
 }
 
-article.recipe button {
-    border: none;
-    background-color: #F6F6F6;
-
-}
 
 
 
@@ -170,33 +163,34 @@ article.recipe button {
     font-weight: 400;
 
     display: flex;
-
-
-
+    align-items: center;
+    gap: 8px
 }
 
 .recipe .time img {
     width: 24px;
     height: 24px;
     aspect-ratio: 1/1;
-    padding-top: 3.5px
 }
 
 article.recipe .recipe__title__details {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
-
-
 
 
 }
 
 article.recipe button img {
     width: 24px;
-    length: 24px;
+    height: 24px;
     padding: 3.5px;
 
+
+}
+
+#bookmark {
+    border: none;
+    background: #F6F6F6;
 }
 
 article.recipe {
@@ -208,18 +202,188 @@ article.recipe h2 {
     padding-left: 0px;
 }
 
-article.recipe .recipe__preparation {
-    border: 1px solid green;
+
+
+
+.recipe__backlink {
+    display: flex;
 }
 
-article.recipe .recipe__preparation {
-    text-align: start;
+.button {
+    display: flex;
+    padding: 16px 20px;
+    font-family: "Climate Crisis";
+    font-size: 16px;
+    border-radius: 500px;
+    background: var(--primary, #F7307C);
+    color: #FFF;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.recipe__preparation ol li {
+    padding-bottom: 48px;
+    gap: 8px;
+}
+
+/* Table styling */
+
+/* style 1st column */
+
+.recipe__ingredients table {
+    border-collapse: collapse;
+    margin-top: 32px;
+}
+
+.recipe__ingredients table td {
+    padding-block: 30px;
+    font-size: 24px;
+}
+
+.recipe__ingredients td:nth-child(-n+1) {
+    min-width: 185px;
+    font-weight: 700
+}
+
+/*style 2nd column */
+.recipe__ingredients td:nth-child(n+2) {
+    border: none;
+
+}
+
+.recipe h2 {
+    padding-top: 34px;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+
+
+input {
+    width: 90px;
+    height: 45px;
+    border: 1px solid #696969;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    appearance: hide;
+    -webkit-appearance: none;
+    font-weight: 700
+}
+
+.plus_minus button {
+    background-color: #F7307C;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 500px;
+    color: #FFF;
+    border: none;
+    width: 60px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 
 
 }
 
-article.recipe .recipe__preparation tr {
-    padding-bottom: 20x;
+.plus_minus button:hover {
+    filter: brightness(80%);
 
+}
+
+.plus_minus button:active {
+    transform: scale(98%);
+}
+
+.plus_minus {
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.plus_minus img {
+    width: 20px;
+    height: 20px;
+    padding: none;
+}
+
+.plus_minus p {
+    color: var(--black, #000);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recipe__preparation ol {
+    list-style: none;
+}
+
+ol p {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 10.586px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.241px;
+    background-color: #F7307C;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border-radius: 60px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: climate crisis, open sans;
+    color: white;
+
+
+}
+
+
+
+ol {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ol li {
+    display: flex;
+    align-items: center;
+}
+
+#number2 {
+    width: 27px;
+}
+
+.bookmark {
+    background: #F6F6F6;
+    border: none;
+}
+
+.bookmark :hover {
+    scale: 140%;
+}
+
+.img-riz {
+    margin-bottom: 45px;
+    width: 281px;
+    height: 50%
 }

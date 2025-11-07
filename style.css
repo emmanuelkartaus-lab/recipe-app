@@ -64,6 +64,9 @@ header .logo {
 
 }
 
+.card .frame {
+    aspect-ratio: 4 / 3;
+}
 
 .card .frame img {
     display: block;
@@ -138,7 +141,6 @@ article.recipe>div+div {
 
 
 article.recipe .frame {
-
     aspect-ratio: 4 / 3;
 }
 
@@ -223,6 +225,7 @@ article.recipe h2 {
 
 .recipe__preparation ol li {
     padding-bottom: 48px;
+    gap: 8px;
 }
 
 /* Table styling */
@@ -303,15 +306,13 @@ input {
     display: flex;
     align-items: center;
     gap: 18px;
-
+    flex-wrap: wrap;
 }
 
 .plus_minus img {
     width: 20px;
     height: 20px;
     padding: none;
-
-
 }
 
 .plus_minus p {
@@ -356,13 +357,10 @@ ol p {
 ol {
 
     display: flex;
-    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
-
-
-
 
 }
 
